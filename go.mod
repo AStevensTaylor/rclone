@@ -30,14 +30,14 @@ require (
 	github.com/go-ole/go-ole v1.2.5 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
-	github.com/google/uuid v1.2.0
+	github.com/google/uuid v1.3.0
 	github.com/hanwen/go-fuse/v2 v2.1.0
 	github.com/iguanesolutions/go-systemd/v5 v5.0.0
 	github.com/jcmturner/gokrb5/v8 v8.4.2
 	github.com/jlaffaye/ftp v0.0.0-20210307004419-5d4190119067
 	github.com/jzelinskie/whirlpool v0.0.0-20201016144138-0675e54bb004
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 // indirect
-	github.com/klauspost/compress v1.12.1
+	github.com/klauspost/compress v1.15.9
 	github.com/koofr/go-httpclient v0.0.0-20200420163713-93aa7c75b348
 	github.com/koofr/go-koofrclient v0.0.0-20190724113126-8e5366da203a
 	github.com/mattn/go-colorable v0.1.8
@@ -48,9 +48,8 @@ require (
 	github.com/nsf/termbox-go v1.1.1-0.20210421210813-2ff630277754
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/pkg/sftp v1.13.1-0.20210424083437-2b80967078b8
-	github.com/prometheus/client_golang v1.10.0
-	github.com/prometheus/common v0.20.0 // indirect
+	github.com/pkg/sftp v1.13.1
+	github.com/prometheus/client_golang v1.11.1
 	github.com/putdotio/go-putio/putio v0.0.0-20200123120452-16d982cac2b8
 	github.com/rfjakob/eme v1.1.1
 	github.com/rivo/uniseg v0.2.0 // indirect
@@ -62,7 +61,7 @@ require (
 	github.com/spacemonkeygo/monkit/v3 v3.0.11 // indirect
 	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.3
 	github.com/t3rm1n4l/go-mega v0.0.0-20200416171014-ffad7fcb44b8
 	github.com/tklauser/go-sysconf v0.3.5 // indirect
 	github.com/xanzy/ssh-agent v0.3.0
@@ -71,19 +70,16 @@ require (
 	go.etcd.io/bbolt v1.3.5
 	go.uber.org/zap v1.16.0 // indirect
 	goftp.io/server v0.4.1
-	golang.org/x/crypto v0.0.0-20210421170649-83a5a9bb288b
-	golang.org/x/net v0.0.0-20210415231046-e915ea6b2b7d
-	golang.org/x/oauth2 v0.0.0-20210413134643-5e61552d6c78
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210423185535-09eb48e85fd7
-	golang.org/x/term v0.0.0-20210406210042-72f3dc4e9b72 // indirect
-	golang.org/x/text v0.3.6
-	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	google.golang.org/api v0.44.0
-	google.golang.org/genproto v0.0.0-20210416161957-9910b6c460de // indirect
-	google.golang.org/grpc v1.37.0 // indirect
+	golang.org/x/crypto v0.17.0
+	golang.org/x/net v0.10.0
+	golang.org/x/oauth2 v0.7.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.15.0
+	golang.org/x/text v0.14.0
+	golang.org/x/time v0.3.0
+	google.golang.org/api v0.114.0
+	google.golang.org/grpc v1.56.3 // indirect
 	gopkg.in/yaml.v2 v2.4.0
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 	storj.io/common v0.0.0-20210419115916-eabb53ea1332 // indirect
 	storj.io/uplink v1.4.6
 )
